@@ -1,0 +1,12 @@
+.about {
+    width: 100%;
+    background: $gray-500;
+
+    .btn {
+        border-width: 4px;
+
+        i{
+            color:$danger;
+        }
+    }
+}

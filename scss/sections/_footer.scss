@@ -1,0 +1,112 @@
+.footer {
+    width: 100%;
+    background: $dark-gray-light;
+    color: $white;
+    margin-top: 2rem;
+    @media (max-width: 500.98px) {
+        text-align: center;
+
+    }
+
+    .quicklinks {
+       
+        ul{
+            padding: 0;
+            list-style: none;
+
+            li {
+                display: block;
+                margin-bottom: 1rem;
+                a {
+                    color: $white;
+                    text-decoration: none;
+                    margin-bottom: rem;
+                }
+            }
+        }
+    }
+    .social-media {
+        h6 {
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+            li{
+                background: $white;
+                display: inline-block;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                text-align: center;
+                margin-right: 0.7rem;
+                margin-bottom: 0.7rem;
+                @media (max-width: 320.98px) {
+                    border-radius: 50%;
+                    width: 30px;
+                    height: 30px;  
+        
+                }
+
+                a{
+                    color: $secondary;
+                }
+                
+                i{
+                    line-height: 2.4rem;
+                    @media (max-width: 320.98px) {
+                        line-height: 2rem;  
+                    }
+                }
+            }
+        }
+    }
+    p.quote{
+        font-size: 1.1rem;
+        font-style: italic;
+    }
+
+    .footer-li {
+        ul {
+            padding: 0;
+            list-style: none;
+            @include media-breakpoint-down(md) { 
+                text-align: center;
+            }
+            
+            li{
+                
+                display: inline-block;
+                margin-right:1.5rem;
+               
+                
+
+                a{
+                    color: $gray-600;
+                    text-decoration: none;
+                    font-size: 12px;
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+                
+                i{
+                    line-height: 2.4rem;
+                }
+            }
+        }  
+    }
+    p.copyright {
+        font-size: 11px;
+        text-align: right;
+        @include media-breakpoint-down(md) { 
+            text-align: center;
+        }
+    }
+
+    .accordion {
+        border-color: $primary !important;
+        color:$white;
+    }
+}

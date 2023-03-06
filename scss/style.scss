@@ -1,0 +1,20 @@
+
+// IMPORT CUSTOM CSS
+@import'./custom';
+
+// COMPONENTS
+
+@import './components/typography';
+@import './components/maxin';
+
+// SECTIONS
+@import './sections/header';
+@import './sections/hero';
+@import './sections/about';
+@import './sections/solutions';
+
+@import './sections/footer';
+
+// PAGES
+@import './pages/article';
+@import'./pages/blog';
