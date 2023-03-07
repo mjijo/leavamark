@@ -12002,6 +12002,16 @@ h3, .h3, h4, .h4 {
   display: block;
 }
 
+.contacts {
+  background: #dee2e6;
+  padding: 4rem 0;
+}
+.contacts .email {
+  font-weight: bolder;
+  font-size: 2rem;
+  color: #F6C04B;
+}
+
 .footer {
   width: 100%;
   background: #333333;
