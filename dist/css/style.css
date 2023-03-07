@@ -11944,6 +11944,7 @@ h3, .h3, h4, .h4 {
 .about {
   width: 100%;
   background: #adb5bd;
+  padding: 4rem 0;
 }
 .about .btn {
   border-width: 4px;
@@ -11959,7 +11960,7 @@ h3, .h3, h4, .h4 {
   color: #000;
   -webkit-text-fill-color: #fff; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #000;
+  -webkit-text-stroke-color: #9747FF;
   margin: 3rem 0;
 }
 .solutions--img--wrap {
@@ -12016,7 +12017,7 @@ h3, .h3, h4, .h4 {
   width: 100%;
   background: #333333;
   color: #fff;
-  margin-top: 2rem;
+  padding: 4rem 0;
 }
 @media (max-width: 500.98px) {
   .footer {
@@ -12043,9 +12044,17 @@ h3, .h3, h4, .h4 {
 .footer .social-media ul {
   padding: 0;
   list-style: none;
+  text-align: center;
+}
+.footer .social-media ul::after {
+  content: "";
+  width: 20%;
+  height: 4px;
+  background-color: #fff;
+  display: block;
+  margin: 1rem auto;
 }
 .footer .social-media ul li {
-  background: #fff;
   display: inline-block;
   border-radius: 50%;
   width: 40px;
@@ -12062,7 +12071,10 @@ h3, .h3, h4, .h4 {
   }
 }
 .footer .social-media ul li a {
-  color: #007144;
+  color: #fff;
+}
+.footer .social-media ul li a:hover {
+  color: #E4DF66;
 }
 .footer .social-media ul li i {
   line-height: 2.4rem;
