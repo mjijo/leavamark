@@ -11970,6 +11970,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
 .solutions--text--wrap {
   padding: 10%;
 }
+.solutions--text--wrap p {
+  margin: 2rem 0;
+}
 .solutions .btn {
   border-width: 5px;
 }
@@ -12308,4 +12311,4 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
 .blog .blog-wrap .sidebar .squire {
   position: sticky;
   top: 0;
-}
+}/*# sourceMappingURL=style.css.map */
