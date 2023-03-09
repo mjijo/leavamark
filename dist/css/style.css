@@ -11993,7 +11993,7 @@ h3, .h3, h4, .h4 {
 }
 .solutions--img--wrap {
   overflow: hidden;
-  max-height: 350px;
+  max-height: 600px;
 }
 .solutions--img--wrap img {
   width: 100%;
