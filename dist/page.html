@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="css/fontawesome.css" rel="stylesheet" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <title>leavamark</title>
+  </head>
+  <body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+              <a class="navbar-brand"><img src="img/logo.svg" alt="" srcset="" style="width: 150px;"></a>
+              <div class="btn d-flex">
+                <span class="call-us position-relative">
+                    <i class="fa-solid fa-phone position-absolute top-50 start-50 translate-middle"></i>
+                </span>
+                <span class="toggle-menu">
+                  <span></span>
+                </span>
+              </div>
+       
+            </div>
+            </div>
+          </nav>
+          <div id="menu" class="">
+            <nav class="main-nav">
+              <ul>
+                <li>
+                  <a href="#">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Solutions
+                  </a>
+                </li>
+                
+                <li>
+                  <a href="#">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            
+            <footer class="menu-footer">
+              <nav class="footer-nav">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-twitter"></i>
+                      Twitter
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-envelope fa-fw"></i>
+                      Subscribe
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </footer>
+          </div>
+    </header>
+    <main>
+    <section class="hero-in">
+      <div class="container">
+        <div class="row">
+        <h2 class="display-2">Who we are</h2>
+        </div>
+      </div>
+    </section>
+    <section class="py-5">
+      <div class="container text-center ">
+        <p class="display-5 pb-4">Integrated Marketing Communication (IMC) Solutions</p>
+        <p>An Integrated Marketing Communications (IMC) company founded in 2013 and based in Nairobi Kenya</p>
+        <p>The company offers one-stop-shop brand marketing and communication solutions to diverse clients regardless of their size and experience. From one-man shows to local and international corporate companies, all of whom demand the highest results and service standards.</p>
+        <p>We are constantly striving to develop unique strategies for our clients that are relevant to shifts in consumer behaviour and technology changes</p>
+        <p>We regard ourselves as an extension of our clients business, nurturing mutual growth. </p>
+        <p>With an experienced team of dedicated staff whose combined creative inspiration and extensive technical experience has produced proven track record of successful solutions for all of our clients specific requirements</p>
+        
+      </div>
+    </section>
+    <hr/>
+    <section class="clients">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 border-end">
+            <span class="text-uppercase">Some of</span>
+            <h3 class="text-uppercase pb-3">Our Clients</h3>
+          </div>
+          <div class="col-md-9">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/safaricom.png" class="img-fluid" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="img/autoexpress.png" class="img-fluid" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="img/rusingaschool.png" class="img-fluid" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="img/griffin.png" class="img-fluid" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="img/safaricom.png" class="img-fluid" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="img/autoexpress.png" class="img-fluid" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="img/rusingaschool.png" class="img-fluid" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="img/griffin.png" class="img-fluid" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="img/autoexpress.png" class="img-fluid" alt="" srcset=""></div>
+              </div>
+              
+            </div>
+          
+            <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+          
+            <!-- Initialize Swiper -->
+            <script>
+              var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                autoplay: {
+                      delay: 2500,
+                      disableOnInteraction: false,
+                    },
+                pagination: {
+                  el: ".swiper-pagination",
+                  clickable: false,
+                },
+                breakpoints: {
+                  640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                  },
+                  768: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                  },
+                  1024: {
+                    slidesPerView: 5,
+                    spaceBetween: 50,
+                  },
+                },
+              });
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="container">
+        <h2 class="display-2">Let’s work together</h2>
+        <p class="email">info@leavamark.com</p>
+        <p>Rainbow Plaza, 1st Floor suite15 <br/>
+          Museum Hill, Off Kipande Road</p>
+      </div>
+    </section>
+    </main>
+    <footer class="footer bg-dark">
+      <div class="container text-center">
+        <div class="social-media">
+            <ul>
+              <li><a href="http://"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="http://"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="http://"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="http://"><i class="fa-brands fa-tiktok"></i></a></li>
+            </ul>
+        </div>
+        <p>© 2023  leavamark. All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    
+  </body>
+</html>
