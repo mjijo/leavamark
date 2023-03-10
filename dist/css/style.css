@@ -11982,6 +11982,11 @@ h3, .h3, h4, .h4 {
   color: #dc3545;
 }
 
+figure img {
+  width: 100%;
+  border-radius: 20px;
+}
+
 .solutions {
   width: 100%;
 }
