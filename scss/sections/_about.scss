@@ -3,6 +3,13 @@
     background: $gray-500;
     padding: 4rem 0;
 
+
+    p.display-4 {
+        @include media-breakpoint-down(md) { 
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+    }
     p {
         @include media-breakpoint-down(md) { 
             font-size: 1.3rem;

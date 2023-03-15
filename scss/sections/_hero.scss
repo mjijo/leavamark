@@ -9,12 +9,23 @@
 
     // }
 
+    span {
+        @include media-breakpoint-down(md) { 
+            margin: 0px auto;
+        }
+
     h1 {
         @include media-breakpoint-down(md) { 
             font-size: 1.5rem;
             padding:1.5rem 0;
+            
         }
     }
+
+    .btn {
+        border-width: 4px;
+    }
+}
 }
 
 .hero-in {
