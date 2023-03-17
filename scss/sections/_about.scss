@@ -1,7 +1,8 @@
 .about {
     width: 100%;
-    background: $gray-500;
+    background: #2E3532;
     padding: 4rem 0;
+    color: $white;
 
 
     p.display-4 {
@@ -20,7 +21,7 @@
         border-width: 4px;
 
         i{
-            color:$danger;
+            // color:$danger;
         }
     }
 }
