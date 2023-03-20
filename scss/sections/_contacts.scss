@@ -1,11 +1,12 @@
 .contacts {
-    background: $gray-300;
+    // background: $gray-300;
+    background: $tea-green;
     padding: 4rem 0;
 
     .email {
         font-weight: bolder;
         font-size: 2rem;
-        color:$orange;
+        color:$pink;
         @include media-breakpoint-down(md) { 
             font-size: 1.3rem;
         }
