@@ -12050,10 +12050,10 @@ figure img {
   align-items: center;
 }
 .clients .swiper-slide img {
-  max-height: 65px;
-}
-.clients .swiper-slide img {
   display: block;
+  max-height: 65px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .contacts {
