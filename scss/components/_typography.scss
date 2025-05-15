@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
 
-$quicksand: 'Quicksand', sans-serif;
+$quicksand: "Quicksand", sans-serif;
 $gilroy-bold: 'Gilroy-Bold', sans-serif;
 $gilroy-heavy: 'Gilroy-Heavy', sans-serif;
 $gilroy-light: 'Gilroy-Light', sans-serif;
@@ -11,10 +11,12 @@ $gilroy-regular: 'Gilroy-Regular', sans-serif;
 
 body {
     font-family: $quicksand; 
+    font-optical-sizing: auto;
 }
 
-h1, h2, h4, h5, h6, p {
+h1, h2, h4, h5, h6, p, ul {
     font-family: $quicksand;
+    font-optical-sizing: auto;
 }
 
 h3, h4{
